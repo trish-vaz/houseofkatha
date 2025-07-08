@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>House of Katha</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-overlay">
+      <img src="assets/logo.png" alt="House of Katha Logo" class="hero-logo" />
+      <h1 class="hero-title">HOUSE OF KATHA</h1>
+      <p class="hero-tagline">Storytelling-first social media agency rooted in Indian ethos</p>
+      <div class="scroll-down">⇣</div>
+    </div>
+  </header>
+
+  <!-- Unified Scroll Story Section -->
+  <section class="scroll-experience">
+    <div class="scroll-bg">
+      <h2 class="dev-title">कथा • Our Story</h2>
+      <p>
+        In a world buzzing with fleeting trends and endless scrolls, we stand as a beacon for brands yearning for something more profound.
+        We are a storytelling-first social media agency, born from the rich tapestry of Indian ethos. Our very core is dedicated to transforming
+        brands from mere entities into human, memorable, and deeply connected voices that resonate with their audience.
+      </p>
+
+      <p>
+        Our mission is clear: to meticulously craft and communicate meaningful brand stories through content that isn’t just seen, but felt.
+        We weave narratives that are culturally-rooted and emotionally-resonant, designed to effortlessly cut through the digital noise and
+        capture hearts.
+      </p>
+
+      <p>
+        If your brand seeks to forge genuine connections through story-driven, high-conversion content, then you’ve found your tribe.
+      </p>
+
+      <!-- Founders Slider -->
+      <div class="founders-slider">
+        <div class="founder">
+          <img src="assets/founder1.png" alt="Founder 1" />
+          <p>पराणीवी</p>
+        </div>
+        <div class="founder">
+          <img src="assets/founder2.png" alt="Founder 2" />
+          <p>भामिनी</p>
+        </div>
+        <div class="founder">
+          <img src="assets/founder3.png" alt="Founder 3" />
+          <p>दिशा</p>
+        </div>
+      </div>
+
+      <!-- Smart Signup -->
+      <div class="join-box">
+        <h3 class="dev-title">मिलना • Join the Tribe</h3>
+        <form id="joinForm" action="https://formspree.io/f/mnnvkqny" method="POST">
+          <select name="type" required>
+            <option value="" disabled selected>I am a...</option>
+            <option value="influencer">Influencer</option>
+            <option value="brand">Brand</option>
+          </select>
+        
+          <input type="text" name="name" placeholder="Your Name or Brand Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" placeholder="Share your story or goal" required></textarea>
+        
+          <button type="submit">Join Katha</button>
+        </form>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating Services on Scroll Texture -->
+  <section class="services-float">
+    <h2 class="dev-title">सेवा • Why Choose Us</h2>
+    <div class="service-float">
+      <div class="service">High-Conversion Storytelling</div>
+      <div class="service">Emotionally Resonant Content</div>
+      <div class="service">Rooted in Indian Culture</div>
+      <div class="service">Influencer + Brand Driven</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <img src="assets/logo.png" alt="Logo" style="width: 40px; margin-bottom: 1rem;">
+    <p>© 2025 House of Katha • Made with stories</p>
+    <p><a href="#">Instagram</a> | <a href="#">Contact</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
