@@ -85,11 +85,13 @@ h1, h2, h3 {
 /* ------------------ Founders Slider ------------------ */
 .founders-slider {
   display: flex;
+  justify-content: center;     /* Center horizontally */
+  align-items: center;
   gap: 2rem;
-  overflow-x: auto;
+  flex-wrap: wrap;             /* For mobile wrap support */
   padding: 2rem 0;
-  scroll-snap-type: x mandatory;
 }
+
 
 .founder {
   min-width: 180px;
